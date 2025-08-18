@@ -1,0 +1,8 @@
+﻿# build outputs
+/build/
+/dist/
+/exports/
+
+# editor junk
+*.log
+.vscode/
