@@ -1,14 +1,15 @@
--- src/main.lua
--- pico-8 entry points
 function _init()
-  -- runs once at start
+    init_player()
+    init_game()
 end
 
 function _update60()
-  -- runs 60 times a second
+    update_player()
+    update_game()
 end
 
 function _draw()
-  cls()
-  print("hello pico-8 team build!", 10, 10)
+    cls()
+    draw_player()
+    draw_game()
 end
